@@ -1,1 +1,24 @@
-// Navigation Styles here
+.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .nav {
+        justify-content: space-evenly;
+        margin: 35px 0 0 20px;
+        @media @phone {
+            width: 100%; 
+            margin-top: 10px;
+            justify-content: space-evenly;
+            display: flex;
+           }
+
+    }
+    a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: black;
+        padding-right: 29px;
+
+    }
+}
